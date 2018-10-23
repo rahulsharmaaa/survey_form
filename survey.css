@@ -1,0 +1,121 @@
+#container {        
+    background: linear-gradient(45deg, rgba(139, 218, 156, 0.87), rgba(128, 250, 203, 0.301), rgba(9, 145, 224, 0.863));    
+    background-size: cover;
+    margin: 0%;    
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 300px;        
+}
+
+#form-outer {
+    background-color:white;     
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;    
+    padding: 10px;
+    padding-top: 20px;
+    
+}
+
+#title {
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;    
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+   
+    
+    
+}
+
+.rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 48%;    
+    vertical-align: middle;
+   
+}
+
+.input-field {
+    height: 20px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+#userAge {
+    width: 40px;
+}
+
+.userRatings, input[type ="checkbox"] {
+    float: left;
+    margin-right: 5px;
+}
+
+#submit {
+    background-color: #59ace0;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin:10px;
+    padding: 5px;
+    border: solid 0px;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio, .checkbox {    
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+
+  @media screen and (max-width: 833px) {
+    .input-field {
+      width: 80%;
+    }
+    select {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .labels {
+      width: 100%;
+      text-align: left;
+    }
+    .rightTab {
+      width: 80%;
+      float: left;
+    }
+    .input-field {
+      width: 100%;
+    }
+    select {
+      width: 100%;
+    }
+  }
